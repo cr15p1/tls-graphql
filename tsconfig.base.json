@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "composite": true,
+        "target": "es2016",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "removeComments": true,
+    },
+    "include": ["./*"],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@tls-graphql/utils",
+  "version": "0.0.1",
+  "description": "Utils for the tls-graphql packages",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:cr15p1/tls-graphql.git",
+  "author": "CR15P1",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "TLS",
+    "GraphQL",
+    "Utils",
+    "JavaScript"
+  ],
+  "dependencies": {
+    "debug": "^4.3.1",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}

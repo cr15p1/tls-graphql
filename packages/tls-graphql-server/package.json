@@ -1,0 +1,23 @@
+{
+  "name": "@tls-graphql/server",
+  "version": "0.0.1",
+  "description": "A lightweight TLS socket based GraphQL server.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:cr15p1/tls-graphql.git",
+  "author": "CR15P1",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@tls-graphql/types": "file:../tls-graphql-types",
+    "@tls-graphql/utils": "file:../tls-graphql-utils",
+    "debug": "^4.3.1",
+    "utils": "file:../tls-graphql-utils"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}

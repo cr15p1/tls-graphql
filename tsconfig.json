@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "strict": false,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./*",
+    "./**/*",
+    "./.eslint.js"
+  ],
+  "references": [
+    {
+      "path": "tsconfig.base.json"
+    },
+    {
+      "path": "tsconfig.build.json"
+    }
+  ]
+}

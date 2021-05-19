@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "CR15P1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint packages",
+    "test": "jest --verbose",
+    "build": "tsc --build tsconfig.build.json --verbose",
+    "build:clean": "tsc --build tsconfig.build.json --clean"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "graphql": "^15.5.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "graphql-tag": "^2.12.4",
+    "nanoid": "^3.1.23",
+    "prettier": "^2.3.0"
+  }
+}

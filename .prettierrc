@@ -1,0 +1,10 @@
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "proseWrap": "preserve",
+  "tabWith": 2,
+  "noSemi":true
+}
