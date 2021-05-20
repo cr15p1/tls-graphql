@@ -4,6 +4,7 @@
   "author": "CR15P1",
   "license": "MIT",
   "private": true,
+  "description": "A lightweight TLS socket based GraphQL server.",
   "scripts": {
     "lint": "eslint packages",
     "test": "jest --verbose",
