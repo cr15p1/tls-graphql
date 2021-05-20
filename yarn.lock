@@ -551,6 +551,12 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@tls-graphql/types@file:packages/tls-graphql-types":
+  version "0.0.1"
+
+"@tls-graphql/utils@file:packages/tls-graphql-utils":
+  version "0.0.1"
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.14"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.14.tgz#faaeefc4185ec71c389f4501ee5ec84b170cc402"
@@ -2279,7 +2285,7 @@ graphql-tag@^2.12.4:
   dependencies:
     tslib "^2.1.0"
 
-graphql@^15.5.0:
+graphql@^15.0.0:
   version "15.5.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.5.0.tgz#39d19494dbe69d1ea719915b578bf920344a69d5"
   integrity sha512-OmaM7y0kaK31NKG31q4YbD2beNYa6jBBKtMFT6gLYJljHLJr42IqJ8KX08u3Li/0ifzTU5HjmoOOrwa5BRLeDA==

@@ -4,16 +4,16 @@
   },
   "files": [],
   "include": [],
-  "exclude": ["packages/**/*.spec.ts"],
+  "exclude": [],
   "references": [
+    {
+      "path": "./packages/tls-graphql-types"
+    },
     {
       "path": "./packages/tls-graphql-utils"
     },
     {
       "path": "./packages/tls-graphql-client"
-    },
-    {
-      "path": "./packages/tls-graphql-types"
     },
     {
       "path": "./packages/tls-graphql-server"

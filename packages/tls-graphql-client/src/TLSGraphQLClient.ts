@@ -6,11 +6,7 @@ import {
   TLSGraphQLClientOptions,
   GraphQLOperationOptions,
 } from '@tls-graphql/types';
-import {
-  replaceAll,
-  socketDataToJSONArray,
-  stringifyData,
-} from '@tls-graphql/utils';
+import { socketDataToJSONArray, stringifyData } from '@tls-graphql/utils';
 import debug from 'debug';
 import { nanoid } from 'nanoid';
 
