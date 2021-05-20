@@ -67,5 +67,11 @@ jobs:
         run: tar -zxvf node_modules.tar.gz
 
       # Runs a single command using the runners shell
-      - name: Build
+      - name: build
         run: yarn build
+
+      # Runs a single command using the runners shell
+      - name: deploy
+        run: yarn deploy
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

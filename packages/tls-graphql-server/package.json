@@ -8,6 +8,9 @@
   "author": "CR15P1",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "deploy":"yarn publish"
+  },
   "dependencies": {
     "@tls-graphql/types": "file:../tls-graphql-types",
     "@tls-graphql/utils": "file:../tls-graphql-utils",

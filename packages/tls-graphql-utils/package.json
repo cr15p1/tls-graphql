@@ -14,6 +14,9 @@
     "Utils",
     "JavaScript"
   ],
+  "scripts": {
+    "deploy":"yarn publish"
+  },
   "devDependencies": {
     "typescript": "^4.2.4"
   },
